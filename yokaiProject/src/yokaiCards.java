@@ -1,25 +1,26 @@
 public class yokaiCards {
     
-    //voici nos différentes cartes //
-
-    //Kappa//
-    //Kitsune//
-    //Oni//
-    //Rokurokubi//
-
-    private final int Type;
-
-    public String toString() {
-        if (this.Type == 0) {
-            return ("Kappa");
-        } else if (this.Type == 1) {
-            return ("Kitsune");
-        } else if (this.Type == 2) {
-            return ("Oni");
-        } else if (this.Type == 3) {
-            return ("Rokurokubi");
-        } else {
-            return (" ");
-        }
+    public enum Cards {
+        KAPPA,
+        KITSUNE,
+        ONI,
+        ROKUROKUBI
     }
+
+    public static void callCards() {
+        
+        for (Cards myVar : Cards.values()) {
+            System.out.println("Les différentes cartes du jeux sont: " + myVar);
+        }
+     }
+
+     public static void hideCards() {
+         
+     }
+
+     public static void DisplayCards() {
+
+     }
+
+     
 }

@@ -1,3 +1,3 @@
-public class Cases {
+public class Cases extends gameBoard {
     
 }

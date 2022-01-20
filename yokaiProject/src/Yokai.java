@@ -1,4 +1,3 @@
-
 public class Yokai {
     private Player currentPlayer;
 
