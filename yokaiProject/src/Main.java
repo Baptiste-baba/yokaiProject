@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Yokai game = new Yokai(null, null, null);
+        game.play();
     }
 }
