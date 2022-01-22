@@ -17,17 +17,13 @@ public class cluesCards {
         BLEU_VERT_ROUGE;
     }
 
-    public static void pickCard() {
+    private Position position;
+    private cluesCards.clues type;
 
+    //constructeur
+    public cluesCards(cluesCards.clues type, Position position) {
+        this.type = type;
+        this.position = position;
     }
 
-    public static void keepCard() {
-
-    }
-
-    public static void useCard() {
-
-    }
-
-    
 }
