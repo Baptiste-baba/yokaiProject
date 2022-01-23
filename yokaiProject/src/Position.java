@@ -8,7 +8,7 @@ public class Position {
         this.column = column;
     }
 
-    public String toSting(){
+    public String toString(){
         return String.valueOf(this.column) + this.row;
     }
 

@@ -24,7 +24,7 @@ public class Cases extends gameBoard {
         return yokaiCard;
     }
 
-    public cluesCards getcluesCards() {
+    public cluesCards getCluesCards() {
         return clueCard;
     }
 
