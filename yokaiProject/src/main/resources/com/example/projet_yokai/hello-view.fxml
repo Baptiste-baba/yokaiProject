@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projet_yokai.Bienvenue">
+   <children>
+      <ImageView fitHeight="1024.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Fond_de_plateau.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="386.0" layoutX="447.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Photo_Yokai.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="Bienv" layoutX="524.0" layoutY="671.0" mnemonicParsing="false" onAction="#mainmenu" prefHeight="25.0" prefWidth="233.0" style="-fx-background-color: E93689;" text="Appuyez pour commencer" />
+   </children>
+</Pane>
